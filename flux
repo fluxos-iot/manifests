@@ -3,10 +3,10 @@
   <projects>
     <project name="builder"
              remote="git://github.com/fluxos-iot/builder"
-             path="docker-builder"/>
+             path="builder"/>
     <project name="meta-osng"
              remote="git://github.com/fluxos-iot/meta-flux"
-             path="sources/meta-osng"/>
+             path="sources/meta-flux"/>
     <project name="openembedded-core"
              remote="git://github.com/openembedded/openembedded-core"
              path="sources/openembedded-core"/>
