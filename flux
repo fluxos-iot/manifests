@@ -4,7 +4,7 @@
     <project name="builder"
              remote="git://github.com/fluxos-iot/builder"
              path="builder"/>
-    <project name="meta-osng"
+    <project name="meta-flux"
              remote="git://github.com/fluxos-iot/meta-flux"
              path="sources/meta-flux"/>
     <project name="openembedded-core"
