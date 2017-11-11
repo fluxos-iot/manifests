@@ -22,9 +22,6 @@
     <project name="meta-virtualization"
              remote="git://git.yoctoproject.org/meta-virtualization"
              path="sources/meta-virtualization"/>
-    <project name="meta-updater"
-             remote="git://github.com/advancedtelematic/meta-updater"
-             path="sources/meta-updater"/>
   </projects>
   <hooks>
     <hook name="create-setup"
