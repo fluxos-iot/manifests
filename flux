@@ -9,18 +9,22 @@
              path="sources/meta-flux"/>
     <project name="openembedded-core"
              remote="git://github.com/openembedded/openembedded-core"
+             remotebranch="rocko"
              path="sources/openembedded-core"/>
     <project name="bitbake"
              remote="git://github.com/openembedded/bitbake"
+             remotebranch="1.36"
              path="sources/openembedded-core/bitbake"/>
     <project name="meta-openembedded"
              remote="git://github.com/openembedded/meta-openembedded"
+             remotebranch="rocko"
              path="sources/meta-openembedded"/>
     <project name="meta-java"
              remote="git://git.yoctoproject.org/meta-java.git"
              path="sources/meta-java"/>
     <project name="meta-virtualization"
              remote="git://git.yoctoproject.org/meta-virtualization"
+             remotebranch="rocko"
              path="sources/meta-virtualization"/>
   </projects>
   <hooks>
