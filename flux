@@ -31,5 +31,8 @@
     <hook name="create-setup"
           project="builder"
           action="create-setup.sh"/>
+    <hook name="add-scripts"
+          project="meta-flux"
+          action="scripts/add-scripts.sh"/>
   </hooks>
 </manifest>
