@@ -26,6 +26,10 @@
              remote="git://git.yoctoproject.org/meta-virtualization"
              remotebranch="rocko"
              path="sources/meta-virtualization"/>
+    <project name="meta-xilinx"
+             remote="git://github.com/Xilinx/meta-xilinx"
+             remotebranch="master"
+             path="sources/meta-xilinx"/>
   </projects>
   <hooks>
     <hook name="create-setup"
